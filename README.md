@@ -14,7 +14,7 @@ If you have any problems you can always slack me @ Keller
 * web browser
 * git
 ### installation
-\ git clone
+git clone [Anita-kitchen_Kellen](https://github.com/KellenNjoroge/Anita-kitchen_Kellen)
 ## bugs
 cannot operate on explorer
 ### License
