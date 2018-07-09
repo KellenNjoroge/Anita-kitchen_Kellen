@@ -38,19 +38,19 @@ body {
   margin-right: -30px;
 }
 #breakfast {
-  background-image: url("../assets/breakfast.jpg");
+  background-image: url("../assets/foodtop/breakfast.jpg");
  background-size: cover;
  padding: 100px;
  margin-right: -30px;
 }
 #lunch {
-  background-image: url("../assets/.lunch.jpg");
+  background-image: url("../assets/foodtop/lunch.jpg");
   background-size: cover;
   padding: 100px;
   margin-right: -30px;
 }
 #dinner {
-  background-image: url("../assets/dinner.jpg");
+  background-image: url("../assets/foodtop/dinner.jpg");
   background-size: cover;
   padding: 100px;
 }
@@ -71,13 +71,10 @@ body {
 .drinksInfoRow {
       padding-top:70px
   }
-  .drinksInfoRow {
-        padding-top: 70px;
-    }
-  .fastFood h2,
   .fastFood h3,
-  .drinksInfo h2,
-  .drinksInfo h3 {
+  .fastFood h4,
+  .drinksInfo h3,
+  .drinksInfo h4 {
       font-weight: bold;
     }
 .fastFoodPhotos,
