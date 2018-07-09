@@ -102,11 +102,11 @@ box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.14);
     button {
       margin-top: 20px;
       padding:10px;
-      background-color: white;
-      color: #f15a29;
+      background-color: #f15a29;
+      color: white;
       border:1px solid #f15a29;
     }
-    .section-navigation {
+    .fastFood{
       margin-left: -10%;
       margin-right:-10%;
       padding:70px;
@@ -127,6 +127,12 @@ box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.14);
   .about h4 {
     color: #f15a29;
     font-weight: bold;
+  }
+  .section-subscription {
+    padding: 30px;
+    border: 2px solid rgba(211, 211, 211, 0.44);
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.14);
+
   }
   .section-form {
     text-align: center;
@@ -150,7 +156,7 @@ box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.14);
     background-color: grey;
     font-size: 16px;
   }
-  input[type=button] {
+  .col-md-6 [id=subscribe] {
     background-color: #f15a29;
     color: white;
     font-size: 16px;
