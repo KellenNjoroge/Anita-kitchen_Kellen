@@ -25,13 +25,13 @@ body {
   font-family:serif;
   font-size: 20px;
 }
-#happyhour{
-  color: black;
-  background-color: lightgrey;
+.tom{
+  background-color: grey;
+  padding: 30px;
 }
-#partytime{
-  color: black;
+.jerry{
   background-color: #f15a29;
+  padding: 30px;
 }
 #breakfast {
   background-image: url("../assets/foodtop/breakfast.jpg");
@@ -53,8 +53,8 @@ body {
 #breakfast:hover,
 #lunch:hover,
 #dinner:hover,
-#happyhour:hover,
-#partytime:hover {
+.tom:hover,
+.jerry:hover {
   color:black;
   opacity:0.7;
 }
@@ -64,24 +64,11 @@ body {
 .container-sa img{
 	padding: auto;
 	margin: auto;
-	border-style: solid;
 }
 .container-sa p{
 	color: red;
-	padding-left: 60px;
 }
-#btn4{
-	padding-left: 300px;
-}
-#btn3{
-	padding-left: 400px;
-}
-#btn2{
-	padding-left: 300px;
-}
-#btn1{
-	padding-left: 300px;
-}
+
 #btn {
 	color: #lightgrey;
 }
