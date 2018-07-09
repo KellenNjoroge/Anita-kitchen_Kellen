@@ -26,17 +26,11 @@ body {
   font-size: 20px;
 }
 #happyhour{
-  padding-top: 41px;
-  padding-bottom: 45px;
-  margin-right: -30px;
-  margin-bottom: 0px;
   color: black;
   background-color: lightgrey;
 }
 #partytime{
-  padding-top:41px;
-  padding-bottom: 45px;
-  margin-right: -30px;
+  color: black;
   background-color: #f15a29;
 }
 #breakfast {
@@ -58,9 +52,38 @@ body {
 }
 #breakfast:hover,
 #lunch:hover,
-#dinner:hover {
+#dinner:hover,
+#happyhour:hover,
+#partytime:hover {
   color:black;
   opacity:0.7;
+}
+.container-sa{
+  background: url("../assets/backgrounds/foodsBg.jpg")
+}
+.container-sa img{
+	padding: auto;
+	margin: auto;
+	border-style: solid;
+}
+.container-sa p{
+	color: red;
+	padding-left: 60px;
+}
+#btn4{
+	padding-left: 300px;
+}
+#btn3{
+	padding-left: 400px;
+}
+#btn2{
+	padding-left: 300px;
+}
+#btn1{
+	padding-left: 300px;
+}
+#btn {
+	color: #lightgrey;
 }
 .section-information{
     padding:50px;
@@ -118,12 +141,62 @@ box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.14);
       background-position: center;
       background-repeat: no-repeat;
     }
+    .nav-list {
+          width: 80%;
+          margin: auto;
+      }
+      .nav-tabs {
+          background-color: lightgrey;
+          font-size: 20px;
+      }
+      .nav-tabs>.active {
+          background-color: white;
+          border-bottom: 0;
+      }
+      .nav-tabs li {
+          border-right: 1px solid #777;
+          border-bottom: 1px solid #777;
+      }
+      a {
+          color: black;
+      }
+      .nav-tabs li.active a,
+      .nav-tabs li.active a:hover,
+      .nav-tabs li.active a:focus {
+          color: #f15a19;
+      }
+      .tab-content {
+        background-color: white;
+      }
+      .carousel-inner {
+        padding: 25px;
+      }
+      .item {
+        float: left;
+        margin: 10px;
+      }
+      carousel-control {
+        opacity: 1;
+        color: #f15a19;
+      }
+      .carousel-control.left,
+      .carousel-control.right {
+        background-image: none;
+      }
+      .section-subscription.row {
+        width: 80%;
+        margin: 50px auto;
+        border: 2px solid #ddd;
+        box-shadow: 0px 0px 5px lightgrey;
+        padding-left: 40px;
+      }
+      .customers {
+        margin-left: auto;
+        text-align: center;
+        padding: 20px;
+      }
+      .customers h4 {}
 
-  .about {
-    padding: 20px;
-    text-align: center;
-    border-left: 2px solid #ddd;
-  }
   .about h4 {
     color: #f15a29;
     font-weight: bold;
