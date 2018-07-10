@@ -158,6 +158,9 @@ box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.14);
       .carousel-inner {
         padding: 25px;
       }
+      .carousel-inner. img{
+        float:right;
+      }
       .item {
         float: left;
         margin: 10px;
