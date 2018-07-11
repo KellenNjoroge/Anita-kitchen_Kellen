@@ -26,21 +26,26 @@
   color: white;
   font-family:serif;
   font-size: 20px;
+  padding: 100px;
 }
  .tom{
   background-color: grey;
-  padding: 30px;
- }
-.jerry{
-  background-color: #f15a29;
-  padding: 30px;
+  padding: 35px;
+  margin-right: -30px;
 }
+ 
+.jerry {
+  background-color: #f15a29;
+  padding: 35px;
+  margin-right: -30px;
+}
+
 #breakfast {
  background-image: url("../assets/foodtop/breakfast.jpg");
  background-size: cover;
  padding: 100px;
  margin-right: -30px;
-}
+}  
 #lunch {
   background-image: url("../assets/foodtop/lunch.jpg");
   background-size: cover;
@@ -57,8 +62,8 @@
 #dinner:hover,
 .tom:hover,
 .jerry:hover {
-  color:black;
-  opacity:0.7;
+  color:white;
+  opacity: 0.7;
 }
 .section-information{
   padding: 70px;
