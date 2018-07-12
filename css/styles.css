@@ -108,14 +108,13 @@ box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.14);
     button {
       margin-top: 20px;
       padding:10px;
-      background-color: #f15a29;
-      color: white;
+      background-color: lightgrey;
+      color: black;
       border:1px solid #f15a29;
     }
 
 
 .container-sa{
-      background: url("../assets/backgrounds/foodsBg.jpg");
       color: #f15a29;
       margin-left: -10%;
       margin-right:-10%;
@@ -125,27 +124,19 @@ box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.14);
       background-clip: border-box;
       background-position: center;
       background-repeat: no-repeat;
+      background: url("../assets/backgrounds/foodsBg.jpg");
 }
-  #btn1,
-  #btn2,
-  #btn3,
-  #btn4
-  {
-    margin-top: 20px;
-    padding:10px;
-    background-color: li  ;
-    color: white;
-    border:1px solid #f15a29
-  }
-  .section-subscription {
+ 
+.section-subscription {
     padding: 70px;
     border: 2px solid rgba(211, 211, 211, 0.44);
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.14);
     margin-left: -10%;
     margin-right:-10%;
-  }
+}
   .section-subscription.row {
     border: 2px solid #ddd;
+    background-color: white;
   }
   .customers {
     margin-left: auto;
@@ -161,7 +152,7 @@ box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.14);
     color: #f15a29;
     font-weight: bold;
   }
-  .section-form {
+.section-form {
     text-align: center;
     background-image: url("../assets/backgrounds/subscribe.jpg");
     background-size: cover;
@@ -172,7 +163,7 @@ box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.14);
     border: 2px solid rgba(211, 211, 211, 0.44);
     margin-left: -10%;
     margin-right:-10%;
-  }
+}
   .form-group {
     width: 50%;
     margin: auto;

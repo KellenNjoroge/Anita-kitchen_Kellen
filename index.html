@@ -78,21 +78,34 @@
           </div>
         </div>
         <div class="container-sa">
-          <div class="row row-1">
-          <div class="col-md-4">
-             <button id="btn1" class="navbtn">Fast Food</button>
-             <button id="btn2" class="navbtn">Drinks</button>
-             <button id="btn3" class="navbtn">Chicken</button>
-             <button id="btn4" class="navbtn">Rice</button>
-            <p>
-             <img src="assets/fastfood/chickenBurger.jpg" alt="Chicken Burger">
-             <img src="assets/fastfood/beefBurger.jpg" alt="Beef Burger">
-             <img src="assets/fastfood/chickenPizza.jpg" alt="Chicken Pizza"> 
-            </p>           
+            <div class="card text-center">
+                <div class="card-header">
+                  <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Fast Food</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Drinks</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#">Chicken</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#">Rice</a>
+                    </li>
+                 </ul>
+                </div>
+                <div class="card-body">
+                 <div class "row card-bodyRow">
+                    <div class "col-md-4">
+                       <img src="assets/fastfood/beefBurger.jpg">
+                       <img src="assets/fastfood/chickenBurger.jpg"> 
+                       <img src="assets/fastfood/chickenPizza.jpg">
+                  </div>
+                 </div>
+              </div>
             </div>
-         </div>
-          
-        </div>
+          </div>
        <div class="section-subscription">
        <div class="row row-about">
          <div class="col-md-6 customers">
@@ -117,8 +130,10 @@
              <p>Get our daily food items delivered to your email</p>
              <div class="form-group">
                  <form id="subscriptionList">
+                   <p>
                     <input type="email" id="emailaddress" class="form-control" placeholder="Your email">
                       <button id="subscribe" type="button"name="button">Subscribe</button>
+                    </p>                  
                   </form>
              </div>
          </div>
