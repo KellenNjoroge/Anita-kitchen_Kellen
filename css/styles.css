@@ -108,8 +108,8 @@ box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.14);
     button {
       margin-top: 20px;
       padding:10px;
-      background-color: lightgrey;
-      color: black;
+      background-color: white;
+      color:#f15a29;
       border:1px solid #f15a29;
     }
 
@@ -153,6 +153,7 @@ box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.14);
     font-weight: bold;
   }
 .section-form {
+    display:block;
     text-align: center;
     background-image: url("../assets/backgrounds/subscribe.jpg");
     background-size: cover;
@@ -160,25 +161,23 @@ box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.14);
     color: white;
     font-size: 20px;
     padding: 70px;
-    border: 2px solid rgba(211, 211, 211, 0.44);
     margin-left: -10%;
-    margin-right:-10%;
+    margin-right:-10%;   
+    }
 }
-  .form-group {
-    width: 50%;
-    margin: auto;
-  }
   .section-form p {
     font-size: 30px;
   }
   input[type=email] {
     background-color: grey;
     font-size: 16px;
+    padding 30px
   }
-  .col-md-6 [id=subscribe] {
+  #subscribe {
     background-color: #f15a29;
     color: white;
     font-size: 16px;
+    padding:10px;
   }
   .form-control {
     border: 0px;
